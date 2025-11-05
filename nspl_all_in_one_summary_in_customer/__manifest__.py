@@ -1,9 +1,10 @@
 {
     'name': 'All in one summary in customer',
-    'version': '18.0',
+    'version': '19.0.1',
     'sequence': 3,
     'author': 'Namah Softech Private Limited',
     'contributors': 'Mohit Nare',
+    'maintainer': 'Namah Softech Private Limited',
     'website': 'http://namahsoftech.com/',
     'support': 'support@namahsoftech.com',
     'price': 14.90,
@@ -25,7 +26,7 @@ Compatible with: Sales, Purchase, Project, Stock, and CRM modules.
 """,
     'depends': ['base', 'contacts', 'sale_management', 'purchase', 'stock', 'account', 'calendar', 'project'],
     'data': [
-        'views/res_partner_views.xml'
+        'views/res_partner_views.xml',
     ],
     'images': ['static/description/img/banner.png'],
     'installable': True,
